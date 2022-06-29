@@ -5,14 +5,14 @@ import AppRoutes from './routes/AppRoutes'
 
 const temas = {
   dark: {
-    color: '#f5f5f5',
+    color: '#fefefe',
     backgroundColor: '#333',
     primary: '#f8b632',
   },
 
   light: {
     color: '#333',
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#fefefe',
     primary: '#333',
   },
 }

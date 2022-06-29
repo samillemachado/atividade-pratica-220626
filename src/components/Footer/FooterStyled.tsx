@@ -29,6 +29,7 @@ const FooterStyled = styled.div`
   p {
     text-align: center;
     font-size: 0.7rem;
+    font-weight: lighter;
   }
 `
 
