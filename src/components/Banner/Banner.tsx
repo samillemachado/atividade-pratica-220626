@@ -1,15 +1,16 @@
-import React from 'react'
+import * as React from 'react'
 import BannerStyled from './BannerStyled'
 
 interface BannerProps {
   titulo: string
-  background: string
+  footer?: boolean
+  fonteFooter?: boolean
 }
 
-const Banner: React.FC<BannerProps> = ({ titulo, background }) => {
+const Banner: React.FC<BannerProps> = ({ titulo, footer, fonteFooter }) => {
   return (
-    <BannerStyled urlImagem={background}>
-      <h6>{titulo}</h6>
+    <BannerStyled bannerHeigth={footer} fSize={fonteFooter}>
+      <h1>{titulo}</h1>
     </BannerStyled>
   )
 }

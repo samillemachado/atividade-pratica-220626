@@ -1,29 +1,28 @@
 import * as React from 'react'
-import { BsBoxSeam, BsHandThumbsUp, BsLaptop } from 'react-icons/bs'
-import styled from 'styled-components'
-import ContainerIcon from '../ContainerIcons/ContainerIcons'
+import { BsBookmarkHeart, BsBook } from 'react-icons/bs'
+import { SiIfood } from 'react-icons/si'
+import ContainerIcon from '../ContainerIcon/ContainerIcon'
+import SectionIconsStyled from './SectionIconsStyled'
 
-const SectionIconStyled = styled.div`
-  width: 100%;
-  height: 40vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: ${(props) => props.theme.backgroundColor};
-  color: ${(props) => props.theme.color};
-`
-
-const SectionIcons = () => {
+const SectionIcons: React.FC = () => {
   return (
-    <SectionIconStyled>
-      <ContainerIcon titulo="Titulo 1" texto="Texto 1" icon={<BsLaptop />} />
-      <ContainerIcon titulo="Titulo 2" texto="Texto 2" icon={<BsBoxSeam />} />
+    <SectionIconsStyled>
       <ContainerIcon
-        titulo="Titulo 3"
-        texto="Texto 3"
-        icon={<BsHandThumbsUp />}
+        icon={<BsBookmarkHeart />}
+        titulo="Ingredientes selecionados"
+        texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
       />
-    </SectionIconStyled>
+      <ContainerIcon
+        icon={<BsBook />}
+        titulo="Conheça nosso cardápio"
+        texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      />
+      <ContainerIcon
+        icon={<SiIfood />}
+        titulo="Faça seu pedido"
+        texto="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      />
+    </SectionIconsStyled>
   )
 }
 
