@@ -21,7 +21,6 @@
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
-  "homepage": "https://samillemachado.github.io/atividade-pratica-220626",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -66,5 +65,6 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
-  }
+  },
+  "homepage": "https://samillemachado.github.io/atividade-pratica-220626"
 }
