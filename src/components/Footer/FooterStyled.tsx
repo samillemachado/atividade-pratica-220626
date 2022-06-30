@@ -26,10 +26,18 @@ const FooterStyled = styled.div`
     color: #f8b632;
   }
 
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   p {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 0.7rem;
-    font-weight: lighter;
+    font-weight: 100;
   }
 `
 

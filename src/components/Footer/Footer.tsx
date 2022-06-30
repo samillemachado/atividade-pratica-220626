@@ -17,7 +17,7 @@ const Footer: React.FC<FooterProps> = ({ text, iconFb, iconIg, iconWt }) => {
         <span>{iconIg}</span>
         <span>{iconWt}</span>
       </div>
-      <div>
+      <article>
         <nav>
           <ul>
             <li>
@@ -35,7 +35,7 @@ const Footer: React.FC<FooterProps> = ({ text, iconFb, iconIg, iconWt }) => {
           </ul>
         </nav>
         <p>{text}</p>
-      </div>
+      </article>
     </FooterStyled>
   )
 }
