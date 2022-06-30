@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/atividade-pratica-220626/static/js/main.d22399d0.js",
+    "static/media/img-banner.jpg": "/atividade-pratica-220626/static/media/img-banner.8862eeffb73975ad2da3.jpg",
+    "static/media/img2.jpg": "/atividade-pratica-220626/static/media/img2.236f79c54057bab3ecd1.jpg",
+    "static/media/img3.jpg": "/atividade-pratica-220626/static/media/img3.1e076e082cd20eb64c8f.jpg",
+    "static/media/img4.jpg": "/atividade-pratica-220626/static/media/img4.3e071ee89bf9cc335237.jpg",
+    "index.html": "/atividade-pratica-220626/index.html",
+    "main.d22399d0.js.map": "/atividade-pratica-220626/static/js/main.d22399d0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d22399d0.js"
+  ]
+}
